@@ -37,10 +37,6 @@ public class Lemonade {
         return iceCubes;
     }
 
-    public void setIceCubes(int iceCubes) {
-        this.iceCubes = iceCubes;
-    }
-
     public double getPrice() {
         return price;
     }
