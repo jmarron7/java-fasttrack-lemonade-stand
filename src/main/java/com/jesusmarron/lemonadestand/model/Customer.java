@@ -5,8 +5,9 @@ public class Customer {
     private String name;
     private String phoneNumber;
 
-    public void setName(String name) {
+    public Customer(String name, String phoneNumber) {
         this.name = name;
+        this.phoneNumber = phoneNumber;
     }
 
     public String getName() {
@@ -17,7 +18,4 @@ public class Customer {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
 }

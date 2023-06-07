@@ -13,6 +13,7 @@ public class Order {
     }
 
     private void updateTotal() {
+        total = 0;
         for (Lemonade l : lemonades) {
             total += l.getPrice();
         }
