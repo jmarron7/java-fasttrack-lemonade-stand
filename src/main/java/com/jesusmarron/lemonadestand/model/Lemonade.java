@@ -24,25 +24,14 @@ public class Lemonade {
         price = (lemonJuice * .3) + (sugar * .15) + (CUP * .5);
     }
 
-    public void setLemonJuice(double lemonJuice) {
-        this.lemonJuice = lemonJuice;
-    }
-
     public double getWater() {
         return water;
-    }
-
-    public void setWater(double water) {
-        this.water = water;
     }
 
     public double getSugar() {
         return sugar;
     }
 
-    public void setSugar(double sugar) {
-        this.sugar = sugar;
-    }
 
     public int getIceCubes() {
         return iceCubes;
