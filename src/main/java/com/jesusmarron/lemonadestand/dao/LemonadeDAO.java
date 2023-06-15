@@ -1,12 +1,12 @@
 package com.jesusmarron.lemonadestand.dao;
 
+import com.jesusmarron.lemonadestand.entity.Lemonade;
+import com.jesusmarron.lemonadestand.entity.Order;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
-import lemonadestand.entity.Lemonade;
-import lemonadestand.entity.Order;
 
 public class LemonadeDAO implements BaseDAO<Lemonade> {
 

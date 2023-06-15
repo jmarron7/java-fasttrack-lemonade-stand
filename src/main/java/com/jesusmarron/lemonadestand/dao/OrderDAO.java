@@ -7,9 +7,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import lemonadestand.entity.Customer;
-import lemonadestand.entity.LemonadeStand;
-import lemonadestand.entity.Order;
+import com.jesusmarron.lemonadestand.entity.Customer;
+import com.jesusmarron.lemonadestand.entity.LemonadeStand;
+import com.jesusmarron.lemonadestand.entity.Order;
 
 public class OrderDAO {
 

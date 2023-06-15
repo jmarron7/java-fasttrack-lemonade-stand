@@ -1,20 +1,14 @@
 package com.jesusmarron.lemonadestand;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
+import com.jesusmarron.lemonadestand.dao.CustomerDAO;
+import com.jesusmarron.lemonadestand.dao.LemonadeDAO;
+import com.jesusmarron.lemonadestand.dao.LemonadeStandDAO;
+import com.jesusmarron.lemonadestand.dao.OrderDAO;
+import com.jesusmarron.lemonadestand.entity.Customer;
+import com.jesusmarron.lemonadestand.entity.Lemonade;
+import com.jesusmarron.lemonadestand.entity.Order;
+
 import java.util.Scanner;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import lemonadestand.dao.CustomerDAO;
-import lemonadestand.dao.LemonadeDAO;
-import lemonadestand.dao.LemonadeStandDAO;
-import lemonadestand.dao.OrderDAO;
-import lemonadestand.entity.Customer;
-import lemonadestand.entity.Lemonade;
-import lemonadestand.entity.Order;
 
 public class Application {
 

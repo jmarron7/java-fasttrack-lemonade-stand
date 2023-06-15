@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import lemonadestand.entity.LemonadeStand;
+import com.jesusmarron.lemonadestand.entity.LemonadeStand;
 
 public class LemonadeStandDAO {
 	

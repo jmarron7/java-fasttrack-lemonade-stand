@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import lemonadestand.entity.Entity;
+import com.jesusmarron.lemonadestand.entity.Entity;
 
 public interface BaseDAO <T extends Entity> {
 	

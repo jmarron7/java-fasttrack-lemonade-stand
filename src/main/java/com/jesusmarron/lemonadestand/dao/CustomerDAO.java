@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import lemonadestand.entity.Customer;
+import com.jesusmarron.lemonadestand.entity.Customer;
 
 public class CustomerDAO implements BaseDAO<Customer> {
 
